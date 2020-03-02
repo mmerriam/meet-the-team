@@ -25,8 +25,14 @@ const findTwoOthers = (questionType, answer, allPeople) => {
     })
   }
 
+  if (questionType === 'CITY') {
+    potentials = others.filter((person) => {
+      return (person.city !== answer.city);
+    })
+  }
+
   if (potentials.length >=2 ) {
-    return potentials.slice(0,2);
+    return potentials.slice(0,2); // take the first 2 (randomize this)
   } else {
     return potentials;
   }
@@ -69,6 +75,18 @@ const generateQuestions = (allPeople) => {
     ...getAnswerForQuestion('CITY', allPeople),
   });
   q.questionText = getQuestionText('CITY', q.person);
+  questions.push(q);
+
+  q = new Question({
+    ...getAnswerForQuestion('NAME', allPeople),
+  });
+  q.questionText = getQuestionText('NAME', q.person);
+  questions.push(q);
+
+  q = new Question({
+    ...getAnswerForQuestion('POSITION', allPeople),
+  });
+  q.questionText = getQuestionText('POSITION', q.person);
   questions.push(q);
 
   return questions;

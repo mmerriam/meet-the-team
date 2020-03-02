@@ -25,7 +25,7 @@ export default class Game extends React.Component {
 
   right = () => {
     this.setState((state, props) => ({
-      numRight: state.numWrong + 1
+      numRight: state.numRight + 1
     }));
     this.nextQuestion();
   }
@@ -43,7 +43,15 @@ export default class Game extends React.Component {
   render() { 
     return <div>
       <h2>Right: {this.state.numRight}, Wrong: {this.state.numWrong} </h2>
-      <Question question={this.state.question} wrong={this.wrong} right={this.right}></Question>
+      {this.state.questionIdx <= 4 &&
+        <Question question={this.state.question} wrong={this.wrong} right={this.right}></Question>
+      }
+      {this.state.questionIdx === 5 &&
+        <div>
+          <h1>You're done!</h1>
+          <p>Thanks for playing</p>
+        </div>
+      }
     </div>;
   }
 }
