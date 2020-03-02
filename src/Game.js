@@ -3,12 +3,33 @@ import data from './data.json';
 import { generateQuestions } from './game-helper';
 import Question from './Question';
 
-export default function Game(props) {
+export default class Game extends React.Component {
 
-  let questions = generateQuestions(data.people);
-  let question = questions[0];
+  constructor(props) {
+    super(props);
+    this.state = {
+      numWrong: 0,
+      numRight: 0
+    };
+  }
 
-  return <div>
-    <Question question={question}></Question>
-  </div>;
+  wrong = () => {
+    this.setState((state, props) => ({
+      numWrong: state.numWrong + 1
+    }));
+  }
+
+  right = () => {
+    this.setState((state, props) => ({
+      numRight: state.numWrong + 1
+    }));
+  }
+
+  render() { 
+    let questions = generateQuestions(data.people);
+    return <div>
+      <h2>Right: {this.state.numRight}, Wrong: {this.state.numWrong} </h2>
+      <Question question={questions[0]} wrong={this.wrong} right={this.right}></Question>
+    </div>;
+  }
 }

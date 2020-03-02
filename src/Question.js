@@ -12,8 +12,10 @@ export default class Question extends React.Component {
   checkAnswer = (guess) => {
     let correctAnswer = this.props.question.person;
     if (guess === correctAnswer) {
+      this.props.right();
       this.setState({answerStatusText: "That's right! Great job"});
     } else {
+      this.props.wrong();
       this.setState({answerStatusText: "Wrong!"});
     }
 
