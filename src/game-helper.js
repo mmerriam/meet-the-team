@@ -6,32 +6,69 @@ class Question {
   }
 }
 
-const generateQuestions = (people) => {
-  let person = people[0];
+const findTwoOthers = (questionType, answer, allPeople) => {
+
+  let others = allPeople.filter((person) => {
+    return person !== answer;
+  });
+
+  let potentials = [];
+  if (questionType === 'NAME') {
+    potentials = others.filter((person) => {
+      return (person.firstname !== answer.firstName) && (person.lastName !== answer.lastName);
+    })
+  }
+
+  if (questionType === 'POSITION') {
+    potentials = others.filter((person) => {
+      return (person.position !== answer.position);
+    })
+  }
+
+  if (potentials.length >=2 ) {
+    return potentials.slice(0,2);
+  } else {
+    return potentials;
+  }
+
+}
+
+const getAnswerForQuestion = (questionType, allPeople) => {
+  let randomIdx = ((Math.random() * 10).toFixed(0)) % allPeople.length;
+  let answer = allPeople[randomIdx];
+  console.log('answer', answer);
+  let others = findTwoOthers(questionType, answer, allPeople);
+  console.log("others", others)
+
+  if (others.length !== 2) {
+    console.log('UH OH ' + others.length);
+  //   getAnswerForQuestion(questionType, allPeople); // try again --- endless loop?
+  }
+
+  return {
+    person: answer,
+    people: [answer, ...others]
+  }
+
+}
+
+const generateQuestions = (allPeople) => {
   let q = new Question({
-    questionText: getQuestionText('POSITION', person),
-    people: people,
-    person: person,
-    answeredCorrectly: undefined,
+    ...getAnswerForQuestion('POSITION', allPeople)
   });
+  q.questionText = getQuestionText('POSITION', q.person);
   questions.push(q);
 
-  person = people[1];
   q = new Question({
-    questionText: getQuestionText('NAME', person),
-    people: people,
-    person: person,
-    answeredCorrectly: undefined,
+    ...getAnswerForQuestion('NAME', allPeople),
   });
+  q.questionText = getQuestionText('NAME', q.person);
   questions.push(q);
 
-  person = people[2];
   q = new Question({
-    questionText: getQuestionText('CITY', person),
-    people: people,
-    person: person,
-    answeredCorrectly: undefined,
+    ...getAnswerForQuestion('CITY', allPeople),
   });
+  q.questionText = getQuestionText('CITY', q.person);
   questions.push(q);
 
   return questions;
@@ -56,18 +93,6 @@ const getQuestionText = (questionType, person) => {
     
   }
 }
-
-// const nextQuestion = () => {
-//   const questionType = pickRandomQuestionType();
-
-//   const name = `${data.people[0].firstName} ${data.people[0].lastName}?`;
-//   return getQuestion(questionType, data.people[2])
-// }
-
-// const pickRandomQuestionType = () => {
-//   return "NAME";
-// }
-
 
 export {
   generateQuestions

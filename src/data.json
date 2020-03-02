@@ -23,6 +23,14 @@
       "city": "Hartford",
       "state": "Connecticut",
       "image": "./images/pic3.jpg"
+    },
+    {
+      "firstName": "Mosh",
+      "lastName": "Hamedani",
+      "position": "Blogger",
+      "city": "Middletown",
+      "state": "New Jersey",
+      "image": "./images/mosh.png"
     }
   ]
 }
