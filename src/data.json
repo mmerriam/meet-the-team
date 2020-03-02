@@ -1,0 +1,28 @@
+{
+  "people": [
+    {
+      "firstName": "Maria",
+      "lastName": "Loch",
+      "position": "Engineer",
+      "city": "Brooklyn",
+      "state": "New York",
+      "image": "./image/pic1.jpg"
+    },
+    {
+      "firstName": "Dave",
+      "lastName": "Scott",
+      "position": "Manager",
+      "city": "New York",
+      "state": "New York",
+      "image": "./image/pic2.jpg"
+    },
+    {
+      "firstName": "Chris",
+      "lastName": "Lonney",
+      "position": "Dev Ops",
+      "city": "Hartford",
+      "state": "Connecticut",
+      "image": "./image/pic3.jpg"
+    }
+  ]
+}
