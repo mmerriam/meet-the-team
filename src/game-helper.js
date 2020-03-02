@@ -15,6 +15,25 @@ const generateQuestions = (people) => {
     answeredCorrectly: undefined,
   });
   questions.push(q);
+
+  person = people[1];
+  q = new Question({
+    questionText: getQuestionText('NAME', person),
+    people: people,
+    person: person,
+    answeredCorrectly: undefined,
+  });
+  questions.push(q);
+
+  person = people[2];
+  q = new Question({
+    questionText: getQuestionText('CITY', person),
+    people: people,
+    person: person,
+    answeredCorrectly: undefined,
+  });
+  questions.push(q);
+
   return questions;
 }
 
