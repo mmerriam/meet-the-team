@@ -13,7 +13,6 @@ const generateQuestions = (people) => {
     people: people,
     person: person,
     answeredCorrectly: undefined,
-
   });
   questions.push(q);
   return questions;

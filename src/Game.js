@@ -10,5 +10,5 @@ export default function Game(props) {
 
   return <div>
     <Question question={question}></Question>
-    </div>;
+  </div>;
 }

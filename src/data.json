@@ -6,7 +6,7 @@
       "position": "Engineer",
       "city": "Brooklyn",
       "state": "New York",
-      "image": "./image/pic1.jpg"
+      "image": "./images/pic1.jpg"
     },
     {
       "firstName": "Dave",
@@ -14,7 +14,7 @@
       "position": "Manager",
       "city": "New York",
       "state": "New York",
-      "image": "./image/pic2.jpg"
+      "image": "./images/pic2.jpg"
     },
     {
       "firstName": "Chris",
@@ -22,7 +22,7 @@
       "position": "Dev Ops",
       "city": "Hartford",
       "state": "Connecticut",
-      "image": "./image/pic3.jpg"
+      "image": "./images/pic3.jpg"
     }
   ]
 }
