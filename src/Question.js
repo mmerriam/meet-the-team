@@ -6,7 +6,6 @@ export default class Question extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      answerStatusText: "."
     };
   }
 
@@ -14,10 +13,8 @@ export default class Question extends React.Component {
     let correctAnswer = this.props.question.person;
     if (guess === correctAnswer) {
       this.props.right();
-      this.setState({answerStatusText: "That's right! Great job"});
     } else {
       this.props.wrong();
-      this.setState({answerStatusText: "Wrong!"});
     }
 
   };
@@ -37,7 +34,6 @@ export default class Question extends React.Component {
   render() {
     return <div>
       <h2>{this.props.question.questionText}</h2>
-      <h2>{this.state.answerStatusText}</h2>
       {this.getPeople(this.props.question.people)}
     </div>;
   }
