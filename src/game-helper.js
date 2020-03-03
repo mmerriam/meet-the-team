@@ -57,9 +57,16 @@ const getAnswerForQuestion = (questionType, allPeople) => {
     // getAnswerForQuestion(questionType, allPeople); // try again --- endless loop?
   }
 
+  let people = [answer, ...others];
+  let randomShift = random(2);
+
+  for (let i=0; i<=randomShift; i++) {
+    people.push(people.shift());
+  }
+
   return {
     person: answer,
-    people: [answer, ...others]
+    people
   }
 
 }

@@ -30,7 +30,7 @@
       "position": "CEO",
       "city": "Hamden",
       "state": "Connecticut",
-      "image": "./images/pic1.jpg"
+      "image": "./images/pic4.jpg"
     },
     {
       "firstName": "Jamie",
@@ -38,7 +38,7 @@
       "position": "VP Finance",
       "city": "Brooklyn",
       "state": "New York",
-      "image": "./images/pic3.jpg"
+      "image": "./images/pic5.jpg"
     },
     {
       "firstName": "Sam",
@@ -46,7 +46,7 @@
       "position": "Accountant",
       "city": "A",
       "state": "New Jersey",
-      "image": "./images/pic1.jpg"
+      "image": "./images/pic6.jpg"
     },
     {
       "firstName": "Mosh",
