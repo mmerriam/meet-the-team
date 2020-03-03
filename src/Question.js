@@ -24,15 +24,6 @@ export default class Question extends React.Component {
  
 
   getPeople = (people) => {
-    let Button = styled.button`
-      cursor: pointer;
-      padding: 0;
-    `;
-
-    let Picture = styled.img`
-      height: 250px;
-    `;
-
     return people.map((person, idx) => {
       return <span key={idx} style={{padding: "0 20px"}}>
         <Button onClick={() => this.checkAnswer(person)}>
@@ -51,3 +42,12 @@ export default class Question extends React.Component {
     </div>;
   }
 }
+
+const Button = styled.button`
+  cursor: pointer;
+  padding: 0;
+`;
+
+const Picture = styled.img`
+  height: 250px;
+`;

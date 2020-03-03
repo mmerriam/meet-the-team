@@ -6,7 +6,7 @@
       "position": "Sr. Director of Software Engineering – Web",
       "city": "New York",
       "state": "New York",
-      "image": "./images/james.jpg"
+      "image": "./images/james-woods.jpg"
     },
     {
       "firstName": "Rob",
@@ -14,7 +14,7 @@
       "position": "Director of Software Engineering – Cloud",
       "city": "New York",
       "state": "New York",
-      "image": "./images/rob.jpg"
+      "image": "./images/rob-morrell.jpg"
     },
     {
       "firstName": "Sina",
@@ -22,7 +22,7 @@
       "position": "Sr. Director of Software Engineering – Web",
       "city": "New York",
       "state": "New York",
-      "image": "./images/sina.jpg"
+      "image": "./images/sina-jazayeri.jpg"
     },
     {
       "firstName": "Stu",
@@ -30,7 +30,7 @@
       "position": "Director of Talent Acquisition",
       "city": "New York",
       "state": "New York",
-      "image": "./images/stu.jpg"
+      "image": "./images/stu-weiser.jpg"
     },
     {
       "firstName": "Brian",
@@ -38,7 +38,7 @@
       "position": "Sr. Director of Software Engineering – Web",
       "city": "New York",
       "state": "New York",
-      "image": "./images/brian.jpg"
+      "image": "./images/brian-olore.jpg"
     },
     {
       "firstName": "Gunjan",
@@ -46,7 +46,7 @@
       "position": "Founder & CEO",
       "city": "New York",
       "state": "New York",
-      "image": "./images/gunjan.jpg"
+      "image": "./images/gunjan-doshi.jpg"
     },
     {
       "firstName": "Michelle",
@@ -54,7 +54,7 @@
       "position": "Sr. Director of People",
       "city": "New York",
       "state": "New York",
-      "image": "./images/michelle.jpg"
+      "image": "./images/michelle-pais.jpg"
     },
     {
       "firstName": "Priyanka",
@@ -62,15 +62,15 @@
       "position": "Director of Strategy and Innovation",
       "city": "New York",
       "state": "New York",
-      "image": "./images/priyanka.jpg"
+      "image": "./images/priyanka-karan.jpg"
     },
     {
       "firstName": "Nick",
       "lastName": "Gentile",
-      "position": "Software Engineer",
+      "position": "Software Engineer - Web",
       "city": "New York",
       "state": "New York",
-      "image": "./images/nick.jpg"
+      "image": "./images/nick-gentile.jpg"
     },
     {
       "firstName": "Jill",
@@ -78,7 +78,39 @@
       "position": "Operations and Automation Program Manager",
       "city": "New York",
       "state": "New York",
-      "image": "./images/jill.jpg"
+      "image": "./images/jill-barrientos.jpg"
+    },
+    {
+      "firstName": "Amanda",
+      "lastName": "Parios",
+      "position": "HR Master",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/amanda-parios.jpeg"
+    },
+    {
+      "firstName": "Anuja",
+      "lastName": "D",
+      "position": "Software Engineer - Web",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/anuja-d.png"
+    },
+    {
+      "firstName": "Bob",
+      "lastName": "Laudner",
+      "position": "Unknown",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/bob-laudner.jpeg"
+    },
+    {
+      "firstName": "Baby",
+      "lastName": "Crawford",
+      "position": "Cutest Baby",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/jen-baby.jpg"
     },
     {
       "firstName": "Jen",
@@ -86,7 +118,111 @@
       "position": "Recruiting Operations Manager",
       "city": "New York",
       "state": "New York",
-      "image": "./images/jen.jpg"
+      "image": "./images/jen-crawford.jpeg"
+    },
+    {
+      "firstName": "Jessica",
+      "lastName": "Cultrera",
+      "position": "Unknown",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/jessica-cultrera.jpeg"
+    },
+    {
+      "firstName": "Juan",
+      "lastName": "Porley",
+      "position": "Software Engineer",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/juan-porley.jpeg"
+    },
+    {
+      "firstName": "Kelly",
+      "lastName": "Witwicki",
+      "position": "Unknown",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/kelly-witwicki.png"
+    },
+    {
+      "firstName": "Kerry",
+      "lastName": "Imai",
+      "position": "Software Engineer - Web",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/kerry-imai.png"
+    },
+    {
+      "firstName": "Lenya",
+      "lastName": "King",
+      "position": "UX Designer",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/lenya-king.jpeg"
+    },
+    {
+      "firstName": "Maryam",
+      "lastName": "Choudhury",
+      "position": "UX Designer",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/maryam-choudhury.png"
+    },
+    {
+      "firstName": "Melody",
+      "lastName": "Yuan",
+      "position": "UX Designer",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/melody-yuan.jpeg"
+    },
+    {
+      "firstName": "Nir",
+      "lastName": "Amin",
+      "position": "Unknown",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/nir-amin.jpeg"
+    },
+    {
+      "firstName": "Riccardo",
+      "lastName": "Gironi",
+      "position": "Client Success Manager",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/riccardo-gironi.jpeg"
+    },
+    {
+      "firstName": "Sam",
+      "lastName": "Bridge",
+      "position": "Talent Acquisition",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/sam-bridge.jpeg"
+    },
+    {
+      "firstName": "Samantha",
+      "lastName": "McNulty",
+      "position": "UX Designer",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/samantha-mcnulty.jpeg"
+    },
+    {
+      "firstName": "Samantha",
+      "lastName": "Selsky",
+      "position": "Client Success Manager",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/samantha-selsky.png"
+    },
+    {
+      "firstName": "Taylor",
+      "lastName": "Green",
+      "position": "UX Designer",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/taylor-green.jpeg"
     },
     {
       "firstName": "Ron",
@@ -94,7 +230,7 @@
       "position": "Head of Mobile Engineering",
       "city": "New York",
       "state": "New York",
-      "image": "./images/ron.jpeg"
+      "image": "./images/ron-hansen.jpeg"
     }
   ]
 }
