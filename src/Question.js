@@ -1,4 +1,5 @@
 import React from 'react';
+import styled from 'styled-components'
 
 export default class Question extends React.Component {
 
@@ -20,15 +21,24 @@ export default class Question extends React.Component {
     }
 
   };
+ 
 
   getPeople = (people) => {
+    let Button = styled.button`
+      cursor: pointer;
+      padding: 0;
+    `;
+
+    let Picture = styled.img`
+      height: 250px;
+    `;
+
     return people.map((person, idx) => {
       return <span key={idx} style={{padding: "0 20px"}}>
-        <button style={{cursor: "pointer", padding: 0}} onClick={() => this.checkAnswer(person)}>
-          <img alt={'photo of ' + person.firstName + ' ' + person.lastName}
-            src={person.image}
-            height="250"></img>
-        </button>
+        <Button onClick={() => this.checkAnswer(person)}>
+          <Picture alt={'photo of ' + person.firstName + ' ' + person.lastName}
+            src={person.image}></Picture>
+        </Button>
       </span>
     });
   }
