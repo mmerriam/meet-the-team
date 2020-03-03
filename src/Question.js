@@ -24,8 +24,10 @@ export default class Question extends React.Component {
   getPeople = (people) => {
     return people.map((person, idx) => {
       return <span key={idx} style={{padding: "0 20px"}}>
-        <button style={{padding: 0}} onClick={() => this.checkAnswer(person)}>
-          <img alt="pic1" src={person.image} height="250"></img>
+        <button style={{cursor: "pointer", padding: 0}} onClick={() => this.checkAnswer(person)}>
+          <img alt={'photo of ' + person.firstName + ' ' + person.lastName}
+            src={person.image}
+            height="250"></img>
         </button>
       </span>
     });
