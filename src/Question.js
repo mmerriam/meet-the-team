@@ -25,7 +25,7 @@ export default class Question extends React.Component {
     return people.map((person, idx) => {
       return <span key={idx} style={{padding: "0 20px"}}>
         <button style={{padding: 0}} onClick={() => this.checkAnswer(person)}>
-          <img alt="pic1" src={person.image} height="300"></img>
+          <img alt="pic1" src={person.image} height="250"></img>
         </button>
       </span>
     });

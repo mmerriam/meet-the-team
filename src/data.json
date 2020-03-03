@@ -1,60 +1,100 @@
 {
   "people": [
     {
-      "firstName": "Maria",
-      "lastName": "Loch",
-      "position": "Engineer",
-      "city": "Brooklyn",
-      "state": "New York",
-      "image": "./images/pic1.jpg"
-    },
-    {
-      "firstName": "Dave",
-      "lastName": "Scott",
-      "position": "Manager",
+      "firstName": "James",
+      "lastName": "Woods",
+      "position": "Sr. Director of Software Engineering – Web",
       "city": "New York",
       "state": "New York",
-      "image": "./images/pic2.jpg"
+      "image": "./images/james.jpg"
     },
     {
-      "firstName": "Chris",
-      "lastName": "Lonney",
-      "position": "Dev Ops",
-      "city": "Hartford",
-      "state": "Connecticut",
-      "image": "./images/pic3.jpg"
-    },
-    {
-      "firstName": "Mary",
-      "lastName": "Smith",
-      "position": "CEO",
-      "city": "Hamden",
-      "state": "Connecticut",
-      "image": "./images/pic4.jpg"
-    },
-    {
-      "firstName": "Jamie",
-      "lastName": "Stout",
-      "position": "VP Finance",
-      "city": "Brooklyn",
+      "firstName": "Rob",
+      "lastName": "Morrell",
+      "position": "Director of Software Engineering – Cloud",
+      "city": "New York",
       "state": "New York",
-      "image": "./images/pic5.jpg"
+      "image": "./images/rob.jpg"
     },
     {
-      "firstName": "Sam",
-      "lastName": "Steele",
-      "position": "Accountant",
-      "city": "A",
-      "state": "New Jersey",
-      "image": "./images/pic6.jpg"
+      "firstName": "Sina",
+      "lastName": "Jazayeri",
+      "position": "Sr. Director of Software Engineering – Web",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/sina.jpg"
     },
     {
-      "firstName": "Mosh",
-      "lastName": "Hamedani",
-      "position": "Blogger",
-      "city": "Middletown",
-      "state": "New Jersey",
-      "image": "./images/mosh.png"
+      "firstName": "Stu",
+      "lastName": "Weiser",
+      "position": "Director of Talent Acquisition",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/stu.jpg"
+    },
+    {
+      "firstName": "Brian",
+      "lastName": "Olore",
+      "position": "Sr. Director of Software Engineering – Web",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/brian.jpg"
+    },
+    {
+      "firstName": "Gunjan",
+      "lastName": "Doshi",
+      "position": "Founder & CEO",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/gunjan.jpg"
+    },
+    {
+      "firstName": "Michelle",
+      "lastName": "Pais",
+      "position": "Sr. Director of People",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/michelle.jpg"
+    },
+    {
+      "firstName": "Priyanka",
+      "lastName": "Karan",
+      "position": "Director of Strategy and Innovation",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/priyanka.jpg"
+    },
+    {
+      "firstName": "Nick",
+      "lastName": "Gentile",
+      "position": "Software Engineer",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/nick.jpg"
+    },
+    {
+      "firstName": "Jill",
+      "lastName": "Barrientos",
+      "position": "Operations and Automation Program Manager",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/jill.jpg"
+    },
+    {
+      "firstName": "Jen",
+      "lastName": "Crawford",
+      "position": "Recruiting Operations Manager",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/jen.jpg"
+    },
+    {
+      "firstName": "Ron",
+      "lastName": "Hansen",
+      "position": "Head of Mobile Engineering",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/ron.jpeg"
     }
   ]
 }
