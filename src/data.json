@@ -25,6 +25,30 @@
       "image": "./images/pic3.jpg"
     },
     {
+      "firstName": "Mary",
+      "lastName": "Smith",
+      "position": "CEO",
+      "city": "Hamden",
+      "state": "Connecticut",
+      "image": "./images/pic1.jpg"
+    },
+    {
+      "firstName": "Jamie",
+      "lastName": "Stout",
+      "position": "VP Finance",
+      "city": "Brooklyn",
+      "state": "New York",
+      "image": "./images/pic3.jpg"
+    },
+    {
+      "firstName": "Sam",
+      "lastName": "Steele",
+      "position": "Accountant",
+      "city": "A",
+      "state": "New Jersey",
+      "image": "./images/pic1.jpg"
+    },
+    {
       "firstName": "Mosh",
       "lastName": "Hamedani",
       "position": "Blogger",

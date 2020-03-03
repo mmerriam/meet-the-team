@@ -1,3 +1,4 @@
+import * as random from 'lodash.random';
 let questions = [];
 
 class Question {
@@ -12,27 +13,34 @@ const findTwoOthers = (questionType, answer, allPeople) => {
     return person !== answer;
   });
 
-  let potentials = [];
+  let filterFn = undefined;
+
   if (questionType === 'NAME') {
-    potentials = others.filter((person) => {
+    filterFn = (person) => {
       return (person.firstname !== answer.firstName) && (person.lastName !== answer.lastName);
-    })
+    };
   }
 
   if (questionType === 'POSITION') {
-    potentials = others.filter((person) => {
+    filterFn = (person) => {
       return (person.position !== answer.position);
-    })
+    };
   }
 
   if (questionType === 'CITY') {
-    potentials = others.filter((person) => {
+    filterFn = (person) => {
       return (person.city !== answer.city);
-    })
+    };
   }
 
-  if (potentials.length >=2 ) {
-    return potentials.slice(0,2); // take the first 2 (randomize this)
+  let potentials = others.filter(filterFn);
+
+  if (potentials.length > 2) {
+    let rnd =  random(potentials.length - 1);
+    if (rnd >= potentials.length-1) {
+      rnd = rnd-2;
+    }
+    return potentials.slice(rnd, rnd+2);
   } else {
     return potentials;
   }
@@ -40,15 +48,13 @@ const findTwoOthers = (questionType, answer, allPeople) => {
 }
 
 const getAnswerForQuestion = (questionType, allPeople) => {
-  let randomIdx = ((Math.random() * 10).toFixed(0)) % allPeople.length;
+  let randomIdx = random(allPeople.length - 1);
   let answer = allPeople[randomIdx];
-  console.log('answer', answer);
-  let others = findTwoOthers(questionType, answer, allPeople);
-  console.log("others", others)
 
+  let others = findTwoOthers(questionType, answer, allPeople);
   if (others.length !== 2) {
     console.log('UH OH ' + others.length);
-  //   getAnswerForQuestion(questionType, allPeople); // try again --- endless loop?
+    // getAnswerForQuestion(questionType, allPeople); // try again --- endless loop?
   }
 
   return {
@@ -96,7 +102,7 @@ const getQuestionText = (questionType, person) => {
   switch(questionType) {
 
     case 'NAME': 
-      const name = `${person.firstName} ${person.lastName}?`;
+      const name = `${person.firstName} ${person.lastName}`;
       return `Which of these people is ${name}?`; 
 
     case 'POSITION': return `Which of these people has the role of ${person.position}?`;
