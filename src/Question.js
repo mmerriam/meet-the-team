@@ -10,12 +10,11 @@ export default function Question(props) {
     } else {
       props.wrong();
     }
-
   };
  
 
-  const getPeople = (people) => {
-    return people.map((person, idx) => {
+  const getPeople = () => {
+    return props.question.people.map((person, idx) => {
       return <span key={idx} style={{padding: "0 20px"}}>
         <Button onClick={() => checkAnswer(person)}>
           <Picture alt={'photo of ' + person.firstName + ' ' + person.lastName}
@@ -27,7 +26,7 @@ export default function Question(props) {
 
   return <div>
     <h2>{props.question.questionText}</h2>
-    {getPeople(props.question.people)}
+    {getPeople()}
   </div>;
 }
 
