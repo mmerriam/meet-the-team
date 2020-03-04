@@ -15,12 +15,12 @@ export default function Question(props) {
 
   const getPeople = () => {
     return props.question.people.map((person, idx) => {
-      return <span key={idx} style={{padding: "0 20px"}}>
+      return <Wrapper key={idx}>
         <Button onClick={() => checkAnswer(person)}>
           <Picture alt={'photo of ' + person.firstName + ' ' + person.lastName}
             src={person.image}></Picture>
         </Button>
-      </span>
+      </Wrapper>
     });
   }
 
@@ -30,6 +30,14 @@ export default function Question(props) {
   </div>;
 }
 
+const Wrapper = styled.span`
+  padding: 0 20px;
+
+  @media (max-width:480px)  { /* smartphones, Android phones, landscape iPhone */ 
+    padding: 0 5px;
+  }
+`;
+
 const Button = styled.button`
   cursor: pointer;
   padding: 0;
@@ -37,4 +45,13 @@ const Button = styled.button`
 
 const Picture = styled.img`
   height: 250px;
+
+  @media (max-width:768px)  {
+    height: 180px;
+  }
+
+  @media (max-width:480px)  {
+    height: 110px;
+  }
+
 `;
