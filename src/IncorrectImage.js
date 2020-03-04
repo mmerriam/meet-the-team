@@ -1,14 +1,16 @@
 import React from 'react';
+import styled from 'styled-components'
 import * as random from 'lodash.random';
 
-export default class IncorrectImage extends React.Component {
-
-  render() {
-    return <div>
-      <img style={{marginTop: "40px"}} 
-        alt="wrong meme" 
-        src={`images/wrong-answer/wrong${random(1, 9)}.jpg`}
-        height="250" ></img>
-    </div>;
-  }
+export default function IncorrectImage(props) {
+  return <Image
+      alt="wrong meme"
+      src={`images/wrong-answer/wrong${random(1, 9)}.jpg`}
+      height="250" ></Image>;
 }
+
+const Image = styled.img`
+  height: 250px;
+  margin-top: 40px;
+  border: 10px solid red;
+`;
