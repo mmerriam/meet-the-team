@@ -50,6 +50,8 @@ export default function Game(props) {
         <h1>You're done!</h1>
         <h2>You managed to get {numRight} out of 5 correct!</h2>
         <p>Thanks for playing</p>
+        <br/>
+        <button onClick={() => { window.location.reload(); }}>Play again</button>
       </div>
     }
   </div>;

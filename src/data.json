@@ -82,19 +82,19 @@
     },
     {
       "firstName": "Amanda",
-      "lastName": "Parios",
-      "position": "HR Master",
+      "lastName": "Pariaros",
+      "position": "Human Resources Generalist",
       "city": "New York",
       "state": "New York",
-      "image": "./images/amanda-parios.jpeg"
+      "image": "./images/amanda-pariaros.jpeg"
     },
     {
       "firstName": "Anuja",
-      "lastName": "D",
+      "lastName": "Dongaonkar",
       "position": "Software Engineer - Web",
       "city": "New York",
       "state": "New York",
-      "image": "./images/anuja-d.png"
+      "image": "./images/anuja-dongaonkar.png"
     },
     {
       "firstName": "Bob",
@@ -131,7 +131,7 @@
     {
       "firstName": "Juan",
       "lastName": "Porley",
-      "position": "Software Engineer",
+      "position": "Software Engineer - Web",
       "city": "New York",
       "state": "New York",
       "image": "./images/juan-porley.jpeg"
@@ -195,7 +195,7 @@
     {
       "firstName": "Sam",
       "lastName": "Bridge",
-      "position": "Talent Acquisition",
+      "position": "Technical Recruiter",
       "city": "New York",
       "state": "New York",
       "image": "./images/sam-bridge.jpeg"
@@ -223,6 +223,278 @@
       "city": "New York",
       "state": "New York",
       "image": "./images/taylor-green.jpeg"
+    },
+    {
+      "firstName": "Adrienne",
+      "lastName": "Herren",
+      "position": "Unknown",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/adrienne-herren.jpeg"
+    },
+    {
+      "firstName": "Andy",
+      "lastName": "Kolotelo",
+      "position": "Program Manager, Learning & Growth",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/andy-kolotelo.jpeg"
+    },
+    {
+      "firstName": "Calvin",
+      "lastName": "Prewitt",
+      "position": "Unknown",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/calvin-prewitt.png"
+    },
+    {
+      "firstName": "Chandralekha",
+      "lastName": "Menon",
+      "position": "Unknown",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/chandralekha-menon.png"
+    },
+    {
+      "firstName": "Clarence",
+      "lastName": "McGann",
+      "position": "Unknown",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/clarence-mcgann.jpeg"
+    },
+    {
+      "firstName": "Derek",
+      "lastName": "Chen",
+      "position": "Unknown",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/derek-chen.jpeg"
+    },
+    {
+      "firstName": "Eduardo",
+      "lastName": "Milpas",
+      "position": "Unknown",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/eduardo-milpas.jpeg"
+    },
+    {
+      "firstName": "Eileen",
+      "lastName": "Wong",
+      "position": "Unknown",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/eileen-wong.jpeg"
+    },
+    {
+      "firstName": "Ethan",
+      "lastName": "Ozelius",
+      "position": "Unknown",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/ethan-ozelius.jpeg"
+    },
+    {
+      "firstName": "Jamel",
+      "lastName": "Cole",
+      "position": "Software Engineer - Web",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/jamel-cole.jpeg"
+    },
+    {
+      "firstName": "Jay",
+      "lastName": "Lee",
+      "position": "UX Designer",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/jay-lee.jpeg"
+    },
+    {
+      "firstName": "Juan",
+      "lastName": "Tapia",
+      "position": "UX Designer",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/juan-tapia.jpeg"
+    },
+    {
+      "firstName": "Kenneth",
+      "lastName": "Tso",
+      "position": "Unknown",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/kenneth-tso.jpeg"
+    },
+    {
+      "firstName": "Kevin",
+      "lastName": "Mongiello",
+      "position": "Software Engineer - Web",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/kevin-mongiello.jpeg"
+    },
+    {
+      "firstName": "Kishore",
+      "lastName": "Bhanoori",
+      "position": "Unknown",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/kishore-bhanoori.png"
+    },
+    {
+      "firstName": "Max",
+      "lastName": "Carey",
+      "position": "UX Designer",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/max-carey.jpeg"
+    },
+    {
+      "firstName": "Mayank",
+      "lastName": "Patel",
+      "position": "Unknown",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/mayank-patel.jpeg"
+    },
+    {
+      "firstName": "Mike",
+      "lastName": "Cooknick",
+      "position": "Software Engineer - Web",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/mike-cooknick.png"
+    },
+    {
+      "firstName": "Mikhail",
+      "lastName": "Davydov",
+      "position": "Software Engineer - Cloud",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/mikhail-davydov.jpeg"
+    },
+    {
+      "firstName": "Nalla",
+      "lastName": "Pranay Reddy",
+      "position": "Unknown",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/nalla-pranay-reddy.png"
+    },
+    {
+      "firstName": "Nelson",
+      "lastName": "Schoenbrot",
+      "position": "Software Engineer - Cloud",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/nelson-schoenbrot.jpeg"
+    },
+    {
+      "firstName": "Nick",
+      "lastName": "Logvynenko",
+      "position": "Software Engineer",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/nick-logvynenko.png"
+    },
+    {
+      "firstName": "Olivia",
+      "lastName": "Lee",
+      "position": "Director of User Experience",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/olivia-lee.png"
+    },
+    {
+      "firstName": "Rahul",
+      "lastName": "Thosar",
+      "position": "Unknown",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/rahul-thosar.jpeg"
+    },
+    {
+      "firstName": "Sidney",
+      "lastName": "So",
+      "position": "Software Engineer - Web",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/sidney-so.png"
+    },
+    {
+      "firstName": "Thomas",
+      "lastName": "King",
+      "position": "Software Engineer - Web",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/thomas-king.jpeg"
+    },
+    {
+      "firstName": "Timothy",
+      "lastName": "Cubbedge",
+      "position": "Director of Software Engineering - Web",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/timothy-cubbedge.png"
+    },
+    {
+      "firstName": "Tony",
+      "lastName": "Lam",
+      "position": "Software Engineer - Web",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/tony-lam.jpeg"
+    },
+    {
+      "firstName": "Vanessa",
+      "lastName": "Rene",
+      "position": "Unknown",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/vanessa-rene.jpeg"
+    },
+    {
+      "firstName": "Victor",
+      "lastName": "Buzzegoli",
+      "position": "Software Engineer",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/victor-buzzegoli.jpeg"
+    },
+    {
+      "firstName": "Vijay",
+      "lastName": "Jain",
+      "position": "Unknown",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/vijay-jain.png"
+    },
+    {
+      "firstName": "Wenbin",
+      "lastName": "Ma",
+      "position": "Unknown",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/wenbin-ma.png"
+    },
+    {
+      "firstName": "Yashila",
+      "lastName": "Puthran",
+      "position": "Unknown",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/yashila-puthran.png"
+    },
+    {
+      "firstName": "Yubaraj",
+      "lastName": "Bhatta",
+      "position": "Unknown",
+      "city": "New York",
+      "state": "New York",
+      "image": "./images/yubaraj-bhatta.jpeg"
     },
     {
       "firstName": "Ron",
