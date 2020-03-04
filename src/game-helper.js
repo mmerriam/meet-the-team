@@ -113,11 +113,10 @@ const getQuestionText = (questionType, person) => {
       return `Which of these people is ${name}?`; 
 
     case 'POSITION': return `Which of these people has the role of ${person.position}?`;
+    case 'CLIENT': return `Which of these people works at ${person.client}?`;
 
     case 'COUNTRY': 
       return `Which of these people works in ${person.country}?`;
-    case 'STATE': 
-      return `Which of these people works in ${person.state}?`;
     case 'CITY':
     default : 
       return `Which of these people works in ${person.city}?`;
