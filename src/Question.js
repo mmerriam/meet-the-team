@@ -39,6 +39,7 @@ const Wrapper = styled.span`
 `;
 
 const Button = styled.button`
+  -webkit-appearance: none; /* iOS Safari fix https://stackoverflow.com/q/12450776/1691 */
   cursor: pointer;
   padding: 0;
 `;
