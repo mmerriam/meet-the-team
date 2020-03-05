@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import data from './data.json';
 import { generateQuestions } from './game-helper';
 import Question from './Question';
-import IncorrectImage from './IncorrectImage';
+import ImageButton from './ImageButton.js';
 
 export default function Game(props) {
 
@@ -16,11 +16,6 @@ export default function Game(props) {
   const wrong = () => {
     setNumWrong(numWrong + 1);
     setWrongAnswer(true);
-
-    setTimeout(() => {
-      setWrongAnswer(false);
-      nextQuestion();
-    }, 3000);
   }
 
   const right = () => {
@@ -29,19 +24,20 @@ export default function Game(props) {
   }
 
   const nextQuestion = () => {
-    let nextIdx = questionIdx + 1; // this feels like a hack
+    setWrongAnswer(false);
+    let nextIdx = questionIdx + 1;
     setQuestionIdx(nextIdx);
     setQuestion(questions[nextIdx]);
   }
 
   if (wrongAnswer) {
-    return <IncorrectImage></IncorrectImage>
+    return <ImageButton wrongAnswer={true} onClick={nextQuestion}></ImageButton>
   }
 
   return <div>
     {questionIdx <= 4 &&
       <div>
-        <h2>Right: {numRight}, Wrong: {numWrong} </h2>
+        <h2>Right: {numRight}, Wrong: {numWrong}</h2>
         <Question question={question} wrong={wrong} right={right}></Question>
       </div>
     }

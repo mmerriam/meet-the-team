@@ -1,5 +1,6 @@
 import React from 'react';
-import styled from 'styled-components'
+import styled from 'styled-components';
+import ImageButton from './ImageButton';
 
 export default function Question(props) {
 
@@ -16,10 +17,11 @@ export default function Question(props) {
   const getPeople = () => {
     return props.question.people.map((person, idx) => {
       return <Wrapper key={idx}>
-        <Button onClick={() => checkAnswer(person)}>
-          <Picture alt={'photo of ' + person.firstName + ' ' + person.lastName}
-            src={person.image}></Picture>
-        </Button>
+        <ImageButton
+          onClick={() => checkAnswer(person)}
+          alt={'photo of ' + person.firstName + ' ' + person.lastName}
+          src={person.image}>
+        </ImageButton>
       </Wrapper>
     });
   }
@@ -36,23 +38,4 @@ const Wrapper = styled.span`
   @media (max-width:480px)  { /* smartphones, Android phones, landscape iPhone */ 
     padding: 0 5px;
   }
-`;
-
-const Button = styled.button`
-  -webkit-appearance: none; /* iOS Safari fix https://stackoverflow.com/q/12450776/1691 */
-  cursor: pointer;
-  padding: 0;
-`;
-
-const Picture = styled.img`
-  height: 250px;
-
-  @media (max-width:768px)  {
-    height: 180px;
-  }
-
-  @media (max-width:480px)  {
-    height: 110px;
-  }
-
 `;
