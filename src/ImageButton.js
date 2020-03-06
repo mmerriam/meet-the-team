@@ -20,6 +20,7 @@ const Button = styled.button`
   cursor: pointer;
   border: 0;
   padding: 0;
+  background-color: white;
 `;
 
 const Picture = styled.img`

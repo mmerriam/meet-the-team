@@ -11,6 +11,6 @@ export default function IncorrectImage(props) {
 
 const Image = styled.img`
   height: 250px;
-  margin-top: 40px;
+  padding-top: 40px;
   border: 10px solid red;
 `;
