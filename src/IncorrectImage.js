@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components'
-import * as random from 'lodash.random';
+import random from 'lodash.random';
 
 export default function IncorrectImage(props) {
   return <Image
