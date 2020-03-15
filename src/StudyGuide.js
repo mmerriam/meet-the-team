@@ -1,6 +1,6 @@
 import React from 'react';
 import data from './data.json';
-import * as sortby from 'lodash.sortby';
+import sortby from 'lodash.sortby';
 
 export default function StudyGuide(props) {
 
