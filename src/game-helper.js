@@ -1,4 +1,4 @@
-import * as random from 'lodash.random';
+import random from 'lodash.random';
 let questions = [];
 
 class Question {
